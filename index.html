@@ -4,39 +4,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius Souza de Faria | Currículo</title>
     <link rel="stylesheet" href="style.css">
-    <title>Viaje Mais</title>
 </head>
 <body>
 
-    <div id="menu">
-        <div id="menuTexto">
-            <p>✈️ Viaje Mais</p>
+<main class="resume">
+
+    <header class="header">
+        <div class="identity">
+            <p class="eyebrow">CURRÍCULO PROFISSIONAL</p>
+            <h1>Vinicius Souza de Faria</h1>
+            <p class="headline">Candidato a Estágio em Tecnologia da Informação</p>
+
+            <div class="contact">
+                <a href="mailto:vini.soul-19@outlook.com.br">vini.soul-19@outlook.com.br</a>
+                <a href="tel:+5511966131072">(11) 96613-1072</a>
+                <span>Suzano — São Paulo, Brasil</span>
+            </div>
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/vinicius-souza-3b2078431/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/vinnysouz" target="_blank">GitHub</a>
+                <a href="https://vinnysouz.github.io/siteviagens/" target="_blank">Site / Projeto</a>
+            </div>
         </div>
 
-        <div id="menuLink">
-            <a href="#" class="carro">Início</a>
-            <a href="#" class="carro">Destinos</a>
-            <a href="#" class="carro">Contato</a>
+        <img class="profile-photo" src="Nova foto curriculo/Foto Curriculo.jpg" alt="Foto de Vinicius">
+    </header>
+
+    <section class="section">
+        <h2>Resumo profissional</h2>
+        <p>
+            Estudante de Análise e Desenvolvimento de Sistemas, buscando
+            uma oportunidade de estágio na área de Tecnologia da Informação.
+            Possuo conhecimentos em informática, Java, HTML e CSS, além de
+            formação complementar em montagem e manutenção de
+            microcomputadores. Tenho interesse em desenvolver minhas
+            habilidades técnicas, adquirir experiência profissional e
+            contribuir com a equipe.
+        </p>
+
+        <p class="objective">
+            <strong>Objetivo:</strong>
+            Conquistar uma oportunidade de estágio em TI, especialmente
+            na área de desenvolvimento, aplicando os conhecimentos
+            adquiridos durante a graduação.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Experiência profissional</h2>
+
+        <article class="entry">
+            <div class="entry-heading">
+                <div>
+                    <h3>Concentrix</h3>
+                    <p class="role">Analista de Cobrança · CLT</p>
+                </div>
+                <span class="date">Março de 2025 – Atualmente</span>
+            </div>
+
+            <p class="place">Palmeiras — Barra Funda</p>
+            <p>Atuação na área de atendimento e cobrança.</p>
+
+            <ul>
+                <li>Envio de e-mails e edição de planilhas no Excel.</li>
+                <li>Auxílio ao supervisor em poucos meses e resolução de conflitos.</li>
+            </ul>
+
+            <p class="tools"><strong>Ferramenta:</strong> Excel</p>
+        </article>
+
+        <article class="entry">
+            <div class="entry-heading">
+                <div>
+                    <h3>Renan Simões</h3>
+                    <p class="role">Vendedor · CLT</p>
+                </div>
+                <span class="date">Fevereiro de 2024 – Janeiro de 2025</span>
+            </div>
+
+            <p class="place">Suzano — SP</p>
+            <p>Experiência profissional na área de vendas.</p>
+
+            <ul>
+                <li>Atuação em vendas.</li>
+                <li>Alcance de metas em uma localização desfavorável para vendas.</li>
+            </ul>
+        </article>
+
+        <article class="entry">
+            <div class="entry-heading">
+                <div>
+                    <h3>Sushi Banana</h3>
+                    <p class="role">Garçom</p>
+                </div>
+                <span class="date">Fevereiro de 2022 – Janeiro de 2023</span>
+            </div>
+
+            <p>Atuação no atendimento ao cliente.</p>
+
+            <ul>
+                <li>Atendimento e serviço aos clientes.</li>
+                <li>Assumir responsabilidades de liderança quando necessário.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section class="section">
+        <h2>Formação acadêmica</h2>
+
+        <article class="entry">
+            <div class="entry-heading">
+                <div>
+                    <h3>UniPiaget</h3>
+                    <p class="role">Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+                </div>
+                <span class="date">Fevereiro de 2026 – Em andamento</span>
+            </div>
+
+            <p>Graduação em andamento.</p>
+        </article>
+    </section>
+
+    <section class="section">
+        <h2>Conhecimentos técnicos</h2>
+
+        <div class="tag-list">
+            <span>Java</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Informática</span>
+            <span>Montagem e manutenção de microcomputadores</span>
+            <span>Visual Studio Code</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Excel</span>
         </div>
-    </div>
+    </section>
 
-    <main class="container">
-        <h1>Lista de viagens</h1>
+    <section class="section two-columns">
+        <div>
+            <h2>Idiomas</h2>
+            <ul class="plain-list">
+                <li><strong>Português:</strong> Nativo</li>
+                <li><strong>Inglês:</strong> Intermediário</li>
+            </ul>
+        </div>
 
-        <table>
-            <thead>
-                <th>Destino</th>
-                <th>País</th>
-                <th>Duração</th>
-                <th>Preço</th>
-            </thead>
-            <tbody id="corpoTabela">
-                <!--Inserido pelo JS-->
-            </tbody>
-        </table>
-    </main>
+        <div>
+            <h2>Cursos e certificações</h2>
+            <ul class="plain-list">
+                <li>Curso de Informática — 2014</li>
+                <li>Montagem e Manutenção de Microcomputadores — 2018</li>
+            </ul>
+        </div>
+    </section>
 
-    <script src="main.js"></script>
+    <section class="section">
+        <h2>Informações adicionais</h2>
+
+        <div class="info-grid">
+            <p><strong>Disponibilidade:</strong> Matutino</p>
+            <p><strong>Modelo de trabalho:</strong> Indiferente</p>
+            <p><strong>Áreas de interesse:</strong> Tecnologia da Informação e desenvolvimento de software</p>
+            <p><strong>Vagas de interesse:</strong> Estágio em TI, desenvolvimento de software e suporte técnico</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <span>Vinicius Souza de Faria</span>
+        <span>Currículo profissional</span>
+    </footer>
+
+</main>
+
 </body>
 </html>
